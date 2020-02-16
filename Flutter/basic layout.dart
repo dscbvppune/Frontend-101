@@ -38,7 +38,9 @@ class App extends StatelessWidget{
         centerTitle: true
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
+        onPressed: (){
+          print("Button pressed!");
+        },
         child: Icon(Icons.favorite)
       )
     );
